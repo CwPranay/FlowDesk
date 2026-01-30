@@ -19,7 +19,7 @@ export default function Features() {
 
                 </div>
 
-                <div className="grid grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 lg:grid-cols-3  gap-8">
 
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -46,7 +46,7 @@ export default function Features() {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        transition={{ duration: 0.5, delay: 0.1 }}
+                        transition={{ duration: 0.5, delay: 0.2 }}
                         className="bg-white hover:-translate-y-1 hover:shadow-md transition-all duration-300 ease-out rounded-2xl p-8 shadow-sm border border-[#E2E8F0]"
                     >
                         <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-[#EFF6FF] mb-6">
@@ -66,7 +66,7 @@ export default function Features() {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        transition={{ duration: 0.5, delay: 0.1 }}
+                        transition={{ duration: 0.5, delay: 0.3 }}
                         className="bg-white hover:-translate-y-1 hover:shadow-md transition-all duration-300 ease-out rounded-2xl p-8 shadow-sm border border-[#E2E8F0]"
                     >
                         <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-[#EFF6FF] mb-6">

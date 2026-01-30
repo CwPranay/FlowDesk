@@ -1,15 +1,14 @@
 
 import { motion } from "framer-motion";
+import Reveal from "./Reveal";
+
 
 export default function Hero() {
     return (
         <section className="py-24 bg-[#F8FAFC]">
-            <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 bg-white rounded-3xl p-16 shadow-sm gap-16 items-center">
+            <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 bg-white rounded-3xl p-16 shadow-sm gap-16 items-center">
 
-                <motion.div
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}>
+                <Reveal>
                     <div>
                         <h1 className="text-5xl font-bold max-w-xl leading-tight mb-6 text-[#0F172A]">
                             <span className="text-[#2563EB]">Workflows</span> that keep your team moving
@@ -35,13 +34,8 @@ export default function Hero() {
                         </p>
 
                     </div>
-                </motion.div>
-                <motion.div
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.6, delay: 0.2 }}
-                >
-
+                </Reveal>
+                <Reveal delay={0.2}>
                     <div className="bg-[#F8FAFC] rounded-xl p-6 shadow-sm">
                         <div className="bg-white rounded-lg p-4 border border-[#E2E8F0]">
                             <div className="flex justify-between items-center mb-4">
@@ -81,7 +75,8 @@ export default function Hero() {
 
                         </div>
                     </div>
-                </motion.div>
+                </Reveal>
+
             </div>
         </section >
     )
