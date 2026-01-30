@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <header className="border-b border-slate-100">
+    <header className="border-b border-[#E2E8F0] bg-white sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
 
         
@@ -18,7 +18,7 @@ export default function Navbar() {
 
         
         <div className="flex items-center gap-4 text-sm font-medium">
-          <button className="text-slate-600 cursor-pointer hover:text-[#0F172A]">
+          <button className="text-[#64748B] cursor-pointer hover:text-[#0F172A]">
             Login
           </button>
 
