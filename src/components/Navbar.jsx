@@ -22,7 +22,7 @@ export default function Navbar() {
             Login
           </button>
 
-          <button className="bg-[#2563EB] text-white px-5 py-2 rounded-md hover:opacity-90 transition">
+          <button className="bg-[#2563EB] hover:-translate-y-px hover:shadow-md cursor-pointer text-white px-5 py-2 rounded-md hover:opacity-90 transition">
             Get Started
           </button>
         </div>
