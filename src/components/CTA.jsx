@@ -14,7 +14,7 @@ export default function CTA() {
                         and better project outcomes.
                     </p>
 
-                    <button className="bg-white text-[#2563EB] px-8 py-3 rounded-md font-medium hover:bg-blue-50 transition">
+                    <button className="bg-white cursor-pointer text-[#2563EB] px-8 py-3 rounded-md font-medium hover:bg-blue-50 transition">
                         Start Your Free Trial
                     </button>
                 </div>
